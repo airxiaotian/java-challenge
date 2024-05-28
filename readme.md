@@ -45,8 +45,8 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 #### Your experience in Java
 
-Please let us know more about your Java experience in a few sentences. For example:
+- I have 4 years experience in Java and I used Spring Boot for 1 years
+- I have never touch this technique until I knew this project
+- I just searched it on the Internet and make it worked
+- I learnt alot in this test , thank you
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
