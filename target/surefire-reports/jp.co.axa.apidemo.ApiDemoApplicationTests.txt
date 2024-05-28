@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: jp.co.axa.apidemo.ApiDemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.265 s <<< FAILURE! - in jp.co.axa.apidemo.ApiDemoApplicationTests
+contextLoads(jp.co.axa.apidemo.ApiDemoApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [jp/co/axa/apidemo/utils/CacheConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.CacheManager]: Factory method 'cacheManager' threw exception; nested exception is javax.cache.CacheException: org.ehcache.xml.exceptions.XmlConfigurationException: Error parsing XML configuration at file:/Users/tciuser1/Documents/work/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/alj-java-challenge-master/target/classes/ehcache.xml
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cache.CacheManager]: Factory method 'cacheManager' threw exception; nested exception is javax.cache.CacheException: org.ehcache.xml.exceptions.XmlConfigurationException: Error parsing XML configuration at file:/Users/tciuser1/Documents/work/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/alj-java-challenge-master/target/classes/ehcache.xml
+Caused by: javax.cache.CacheException: org.ehcache.xml.exceptions.XmlConfigurationException: Error parsing XML configuration at file:/Users/tciuser1/Documents/work/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/alj-java-challenge-master/target/classes/ehcache.xml
+Caused by: org.ehcache.xml.exceptions.XmlConfigurationException: Error parsing XML configuration at file:/Users/tciuser1/Documents/work/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/alj-java-challenge-master/target/classes/ehcache.xml
+Caused by: javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+Caused by: java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+
